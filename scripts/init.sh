@@ -1,5 +1,6 @@
 baseDir=$HOME/Work/Git
-export MOODLE_DOCKER_WWWROOT=$baseDir/moodle-src
+export MOODLE_DOCKER_WWWROOT=$baseDir/moodle
+export MOODLE_DOCKER_PGDATA=$baseDir/moodle-pgdata
 export MOODLE_DOCKER=$baseDir/moodle-docker
 export MOODLE_DOCKER_DB=pgsql
 
