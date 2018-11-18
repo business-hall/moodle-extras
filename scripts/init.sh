@@ -1,8 +1,5 @@
-baseDir=$HOME/Work/Git
-export MOODLE_DOCKER_WWWROOT=$baseDir/moodle
-export MOODLE_DOCKER_PGDATA=$baseDir/moodle-pgdata
-export MOODLE_DOCKER=$baseDir/moodle-docker
-export MOODLE_DOCKER_DB=pgsql
+scriptDir=$(dirname "$0")
+. $scriptDir/env.sh
 
 # Ensure customized config.php for the Docker containers is in place
 cp $MOODLE_DOCKER/config.docker-template.php $MOODLE_DOCKER_WWWROOT/config.php
