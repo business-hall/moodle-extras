@@ -1,11 +1,10 @@
 baseDir=$HOME/Work/Git
 export MOODLE_DOCKER_WWWROOT=$baseDir/moodle
 export MOODLE_DOCKER_ROOT=$baseDir/moodle-docker
-export MOODLE_DOCKER_WWWROOT2=$baseDir/moodle_var_www
+export MOODLE_DOCKER_WWWROOT2=$baseDir/moodle-var-www
 export MOODLE_DOCKER_PGDATA=$baseDir/moodle-pgdata
 export MOODLE_DOCKER=$baseDir/moodle-docker
 export MOODLE_DOCKER_DB=pgsql
 export MOODLE_DOCKER_WEB_PORT=80
 #export MOODLE_DOCKER_WEB_HOST=35.246.201.244
 export MOODLE_DOCKER_WEB_HOST=localhost
-#export MOODLE_DOCKER_PHP_VERSION=latest
